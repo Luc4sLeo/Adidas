@@ -90,12 +90,13 @@
                             android:textSize="14sp" />
 
                         <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnVisitStore"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
-                            android:text="VER AGORA"
-                            android:textColor="@color/adidas_black"
                             android:backgroundTint="@color/white"
+                            android:text="VISITE NOSSA LOJA"
+                            android:textColor="@color/adidas_black"
                             app:cornerRadius="0dp" />
                     </LinearLayout>
                 </FrameLayout>

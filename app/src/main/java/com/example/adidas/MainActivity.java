@@ -28,11 +28,13 @@ public class MainActivity extends AppCompatActivity {
         View cardClothing = findViewById(R.id.cardClothing);
         View cardAccessories = findViewById(R.id.cardAccessories);
         View cardCart = findViewById(R.id.cardCart);
+        View btnVisitStore = findViewById(R.id.btnVisitStore);
 
         cardShoes.setOnClickListener(v -> openProductList("Calçados"));
         cardClothing.setOnClickListener(v -> openProductList("Roupas"));
         cardAccessories.setOnClickListener(v -> openProductList("Acessórios"));
         cardCart.setOnClickListener(v -> startActivity(new Intent(this, CartActivity.class)));
+        btnVisitStore.setOnClickListener(v -> startActivity(new Intent(this, VisiteLoja.class)));
 
         setupNewItems();
     }
